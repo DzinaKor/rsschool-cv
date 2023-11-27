@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    html {
+        display: block;
+    }
+    head {
+        display: none;
+    }
+    body {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: #f5f7fa;
+    }
+    
+    .navigation ul{
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        background-color: #fff;
+        margin: auto;
+        list-style: none;
+    }
+    .navigation li { 
+        display: inline; 
+      }
+    .navigation ul a {
+        padding: 20px;
+        margin-left: 25px;
+        display: inline-block;
+      
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+    }
+    .navigation ul a:hover{
+        background-color: #333;
+        color: #f4f4f4;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        background-color: #fff;
+        margin: auto;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        margin: auto;
+    }
+    .aside {
+        background-color: #dddddd;
+        width: 600px;
+        padding: 10px;
+        display: block;
+    }
+    .avatar {
+        padding: 20px;
+    }
+    .contacts {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    line-height: 2rem;
+    }
+    .contacts h2 {
+        padding: 10px;
+    }
+    .contacts ul {
+        list-style: none;
+    }
+    .start_block {
+        color: #000;
+        padding: 15px;
+        text-align: center;
+    }
+    .personal_details {
+        margin-left: 10px;
+        line-height: 2rem;
+    }
+    .personal_details h2 {
+        padding: 10px;
+    }
+    .personal_details ul {
+        list-style: none;
+    }
+    .main_container {
+        padding: 100px 90px;
+    }
+    .main_container section {
+        margin-bottom: 40px;
+    }
+    .main_container h3 {
+        padding: 10px;
+    }
+    .git {
+        padding: 5px 40px;
+    }
+    .rs {
+        width: 14%;
+        padding: 5px 400px;
+    }
+    .year {
+        padding-top: 40px;
+        padding-left: 150px;
+        color: #000;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    footer div {
+        display: block;
+    }
