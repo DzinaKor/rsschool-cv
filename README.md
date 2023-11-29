@@ -1,1 +1,1 @@
-# new_one
+# https://dzinakor.github.io/rsschool-cv/
