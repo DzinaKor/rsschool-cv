@@ -51,3 +51,14 @@ I'm excited to be a part of the amazing process of shaping the future through te
 + English (B2)
 + Belarusian (Native)
 + Russian (Bilingual)
+
+  
+### Projects
+---
++ project with quotes from Pulp Fiction movie. https://dzinakor.github.io/Pulp-Fiction-quotes/
++ Shelter – is a multi-page website. It was made by using HTML, SCSS, JavaScript, Webpack, Git.
+https://rss-pets-shelter.netlify.app/main/
++ CoinMarketClone – is a website to keep track of market cap of cryptocurrencies. 
+It was made by using such technology as: MVC, SPA, OOP, HTML, CSS, JavaScript, TypeScript, NodeJS, MongoDB, REST, Webpack, Git; and such services as: GitHub, Netlify, Heroku, Asana.
+https://rss-coinmarket-clone.netlify.app
++ Front-end for Engineering service center inner system. Made by using such technology as: SPA, OOP, HTML, CSS, JavaScript, TypeScript; with using Trello service.
