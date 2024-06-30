@@ -37,3 +37,17 @@ I'm excited to be a part of the amazing process of shaping the future through te
 + Problem-solving
 + Proactive
 + Critical thinking
+
+### Education 
+---
++ Javascript Front-end mentoring program, RSS
++ JavaScript Front-end pre-School, RSS
++ FreeCodeCamp, JavaScript
++ Master of business administration, BSEU 
++ Bachelor of Business administration, BSEU
+
+### Languages
+---
++ English (B2)
++ Belarusian (Native)
++ Russian (Bilingual)
