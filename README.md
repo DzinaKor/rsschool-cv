@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://DzinaKor.github.io/rsschool-cv/
