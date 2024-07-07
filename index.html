@@ -111,7 +111,7 @@
                             this.coinId = 'Bitcoin';
                         }
                     
-                        async apiReqOneCoin(id: string): Promise<CoinData> {
+                        async apiReqOneCoin(id: string): Promise &lt;CoinData&gt; {
                             this.coinId = id;
                             this.oneCoinFromApi = await getCoinData(this.coinId);
                             return this.oneCoinFromApi;
