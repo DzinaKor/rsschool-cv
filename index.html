@@ -7,7 +7,6 @@
     <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- <p><b>(Please, be kind and give me some time to work on my cv task. Thank you!)</b></p> -->
     <header>
         <nav class="navigation">
             <ul>
@@ -18,7 +17,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skill">Skills</a></li>
                 <li><a href="#code">Code example</a></li>
-                <li><a href="#english">English level</a></li>
+                <li><a href="#english">Languages</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
@@ -27,102 +26,134 @@
         <div class="aside">
             <section class="start_block">
                 <h1>DZINA KORSHUNAVA</h1>
-                <div class="avatar">
-                    <img src="" alt="Dzina" width="204" height="204">
-                </div>
             </section>
             <section class="contacts" id="contact">
                 <h2>Contacts</h2>
                 <ul>
-                    <li>
-                    </li>
-                    <li>
-                    </li>
-                    <li>
-                    </li>
+                    <li><b>Email:</b><br>dzinakorshunava@gmail.com</li>
+                    <li><b>Whatsapp, Telegram</b> <br>+995-551-588-317</li>
                 </ul>
             </section>
             <section class="personal_details" id="personal">
                 <h2>Personal Details</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><b>Nationality:</b> <br>Belarus</li>
+                    <li><b>City of Residence:</b> <br>Tbilisi, Georgia</li>
                 </ul>
             </section>
         </div>
         <div class="main_container">
             <section class="about" id="about">
                 <h3>About me</h3>
-                <p></p>
+                <p>Enthusiastic front-end developer with solid skills in JavaScript, HTML, and CSS. Experienced in building responsive and interactive web applications. Strong problem-solving abilities and a team player with excellent communication skills. Passionate about continuous learning and contributing to innovative projects</p>
             </section>
             <section class="education" id="education">
                 <h3>Education</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>The Rolling Scope School
+                        2022
+                        Javascript front-end mentoring programm</li>
+                    <li>The Rolling Scope School
+                        2021 - 2022
+                        Javascript front-end programm</li>
+                    <li>BSEU
+                        2017 - 2019
+                        Master of business administration</li>
+                    <li>BSEU
+                        2012 - 2017
+                        Bacholor of business administration</li>
                 </ul>
             </section>
             <section class="experience" id="experience">
                 <h3>Experience</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>FRONT-END JAVASCRIPT ENGINEER FREELANCE
+                        2022 - 2024</li>
+                    <li>FRONT-END JAVASCRIPT ENGINEER DEVELOPER
+                        “DewMed” start up
+                        2022 - 2024</li>
                 </ul>
             </section>
             <section class="skills" id="skill">
                 <h3>Tech Skills</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Typescript</li>
+                    <li>Git (GitHub)</li>
+                    <li>Webpack</li>
+                    <li>Figma</li>
+                    <li>Sass</li>
                 </ul>
-                <h3>Interpersonal Skills</h3>
+                <h3>Personal Skills</h3>       
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Self-motivated</li>
+                    <li>Open-mindness</li>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Problem-solving</li>
+                    <li>Critical thinking</li>
+                    <li>Proactive</li>
                 </ul>
             </section>
             <section class="code_example" id="code">
                 <h3>Latest code example</h3>
                 <pre>
-                <code></code>
+                <code>
+                    export default class Coin {
+                        public oneCoinFromApi: CoinData | undefined;
+                    
+                        public coinId: string;
+                    
+                        constructor() {
+                            this.oneCoinFromApi = undefined;
+                            this.coinId = 'Bitcoin';
+                        }
+                    
+                        async apiReqOneCoin(id: string): Promise<CoinData> {
+                            this.coinId = id;
+                            this.oneCoinFromApi = await getCoinData(this.coinId);
+                            return this.oneCoinFromApi;
+                        }
+                    }
+                </code>
             </pre>
             </section>
 
             <section class="english" id="english">
-                <h3>English level</h3>
-                <p></p>
+                <h3>Languages</h3>
+                <ul>
+                <li>English (B2)</li>
+                <li>Belarusian (Native)</li>
+                <li>Rusian (Bilingual)</li>
+                </ul>
             </section>
 
             <section class="projects" id="projects">
                 <h3>Projects</h3>
                 <ul>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
+                    <li>Shelter project - is a multi-page website. It was made by
+                        using HTML, SCSS, Javascript, Webpack, Git.></li>
+                    <li> <a href="https://2louvremuseum.netlify.app/" target="_blank">Museum project</a> - is an interactive website of Louvre Museum. It was made by using HTML, SCSS, Javascript, Webpack, Git.</li>
+                <li>
+                    CoinMarketCap clone project - is a website to keep track of market cap of cryptocurrencies.
+it was made by using such technology as: MVC, SPA, OOP, HTML, CSS, Javascript, Typescript, Node JS, MongoDB, REST, Webpack, Git;
+and such services as: GitHub, Netlify, Heroku, Asana.
+                </li> 
                 </ul>
             </section>
         </div>
     </main>
     <footer>
         <div class="git">
-            <a href="" target="_blank"><img src="" alt="github_logo" width="100" height="50"></a>
+            <a href="https://github.com/DzinaKor" target="_blank"><img src="./assets/logo/github-logo-vector.png" alt="github_logo" width="100" height="50"></a>
         </div>
         <div class="rs">
-            <a href="" target="_blank"><img src="" alt="rsschool_logo" width="100" height="50"></a>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="./assets/logo/rs-school-logo.svg" alt="rsschool_logo" width="100" height="50"></a>
         </div>
         <div class="year">
-            <p></p>
+            <p>2024</p>
         </div>
     </footer>
 </body>
